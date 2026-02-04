@@ -32,7 +32,7 @@ gdjs.FinalCode.GDborboleta3Objects1= [];
 gdjs.FinalCode.GDborboleta3Objects2= [];
 
 
-gdjs.FinalCode.asyncCallback15299908 = function (runtimeScene, asyncObjectsList) {
+gdjs.FinalCode.asyncCallback20356252 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.FinalCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro", false);
 }gdjs.FinalCode.localVariables.length = 0;
@@ -46,7 +46,7 @@ gdjs.FinalCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.FinalCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.FinalCode.asyncCallback15299908(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.FinalCode.asyncCallback20356252(runtimeScene, asyncObjectsList)));
 }
 }
 
